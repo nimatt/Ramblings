@@ -9,7 +9,7 @@ I can at least do a quick check on some of its properties when I was stuck on a 
 for two hours anyway.
 
 *DISCLAMER*: When reading this, you should take into account that I am only scratching
-the surface and that my knowledge in statistics leave a lot to wish for.
+the surface and that my knowledge in statistics could be WAY better.
 
 ## Get Data
 
@@ -39,12 +39,12 @@ for (i in 1:16) {
 }
 ```
 
-![histogram plot](https://raw.githubusercontent.com/nimatt/Ramblings/master/images/guidRandomness/hist.png)
+![histogram plot](https://raw.githubusercontent.com/nimatt/Ramblings/master/.NET/images/guidRandomness/hist.png)
 
 Most of it looks just the way we want it to, nice and flat. But what is up with
 byte 7 and 8? This can also be seen when plotting all bytes added together.
 
-![histogram plo all](https://raw.githubusercontent.com/nimatt/Ramblings/master/images/guidRandomness/histAll.png)
+![histogram plo all](https://raw.githubusercontent.com/nimatt/Ramblings/master/.NET/images/guidRandomness/histAll.png)
 
 ## Pearson's Chi-squared
 Next I wanted to know if any of the bytes had dependencies between them. One way
